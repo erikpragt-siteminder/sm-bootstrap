@@ -1,6 +1,6 @@
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone git@github.com:siteminder-au/boxen.git /opt/boxen/repo
+git clone https://github.com/siteminder-au/boxen.git /opt/boxen/repo
 cd /opt/boxen
 ./script/boxen 
 
